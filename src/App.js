@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import PostList from './components/post_list'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <PostList />
       </header>
     </div>
   );
